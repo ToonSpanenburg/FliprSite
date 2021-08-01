@@ -54,7 +54,6 @@ body {
 
 #body {
     margin: 0;
-    padding: 0 0 30px;
     text-align: center;
 }
 
@@ -92,6 +91,30 @@ body {
 {
     padding-top: 50px;
 }
+.btnPadder
+{
+    padding: 50px;
+    font-size: 70px;
+}
+.imgsize
+{
+    height: 550px;
+    width: 330px;
+}
+.mobilePictureSizer
+{
+    width: 500px;
+}
+@media (max-width: 1000px) {
+    #mobilePictures
+    {
+        display: block;
+    }
+    #desktopPictures
+    {
+        display: none;
+    }
+}
 @media (max-width: 800px) {
 
     #header{
@@ -106,14 +129,7 @@ body {
     {
         display: block;
     }
-    #mobilePictures
-    {
-        display: block;
-    }
-    #desktopPictures
-    {
-        display: none;
-    }
+
     #desktopStart
     {
         display: none;

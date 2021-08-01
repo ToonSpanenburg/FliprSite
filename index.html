@@ -20,19 +20,16 @@
         <h1>FLIPR</h1>
         <ul id="navigation">
             <li class="selected">
-                <a href="index.html">home</a>
+                <a href="#desktopStart">home</a>
             </li>
             <li>
-                <a href="about.html">about</a>
+                <a href="#desktopPictures">gallery</a>
             </li>
             <li>
-                <a href="gallery.html">gallery</a>
+                <a href="#desktopDownload">download</a>
             </li>
             <li>
-                <a href="blog.html">download</a>
-            </li>
-            <li>
-                <a href="contact.html">contact</a>
+                <a href="#desktopContact">contact</a>
             </li>
         </ul>
     </div>
@@ -57,12 +54,13 @@
         </div>
     </nav>
 
+
     <div class="text-center" id="navPicTitleMobile">
         <img style="width: 150px; height: 150px;" src="images/icon.png" alt="">
         <h1>FLIPR</h1>
     </div>
 
-    <main class="container mt-2">
+    <main class="container">
 <!--        desktop start-->
         <div id="desktopStart">
         <div  class="row">
@@ -72,9 +70,21 @@
             <div class="col">
                 <div class="tab-content">
                     <h2>mijn app</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur, distinctio eaque eius excepturi inventore laudantium modi molestiae neque obcaecati praesentium, quas, quia reiciendis sapiente soluta tempore unde veritatis voluptatibus.</p>
+                    <p>
+                        Op deze site kan je mijn app vinden die ik gemaakt heb voor mijn cordova project dat ik gemaakt heb voor de richting AI
+                        op <a href="https://www.thomasmore.be/">thomas more</a>. De bouwstenen van deze applicatie zijn html ,css en jquery ook heb ik enkele
+                        php scripten geschreven voor het inladen en uploaden van een database.
+                    </p>
                     <h3>Inspiratie</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus culpa cumque dolore dolorum exercitationem in laudantium nobis nulla, odit praesentium, repellendus repudiandae sapiente sequi. Dolorum expedita incidunt ipsa natus necessitatibus.</p>
+                    <p>
+                        Ik ben altijd geintereseerd geweest in films maar na het kijken van veel films werd het erg moeilijk nieuwe films te ontdekken.
+                        Al snel vond ik film review sites zoals <a href="https://www.imdb.com/">imdb</a> en
+                        <a href="https://www.rottentomatoes.com/">rotten tomatoes</a> hier leerde ik enkele films kennen maar ik had al snel door dat
+                        ik af ging op titels en genres in plaats van willekeurige films te leren kennen. Na het zoeken op youtube vond ik een
+                        <a href="https://www.youtube.com/channel/UCrTNhL_yO3tPTdQ5XgmmWjA">kanaal</a> dat
+                        ik graag keek eender welke films ze bespreekten. Dit bracht me op het idee een app te maken waar je film recenties krijgt zonder titel
+                        en zonder fotos, hieruit kunnen mensen op enkel de review een film leren kennen zonder eerst extra informatie te krijgen.
+                    </p>
                 </div>
             </div>
         </div>
@@ -83,17 +93,25 @@
 <!--        mobile start-->
         <div id="mobileStart" class="row">
             <img src="images/filmstrip.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum esse exercitationem minus tempora tempore. Accusantium cum cupiditate, doloribus earum ex fuga nobis non quas quia quos ratione reprehenderit veniam voluptates!</p>
-        </div>
 
-        <div class="row mt-3 topPadder">
-            <h2 class="text-center">
-                ABOUT
-            </h2>
+            <h2>mijn app</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequuntur dolorum eos labore laborum, quia sit. Enim maxime quaerat quia voluptates voluptatum! Eveniet illum provident quo tempora, vero voluptate voluptates?
+                Op deze site kan je mijn app vinden die ik gemaakt heb voor mijn cordova project dat ik gemaakt heb voor de richting AI
+                op <a href="https://www.thomasmore.be/">thomas more</a>. De bouwstenen van deze applicatie zijn html ,css en jquery ook heb ik enkele
+                php scripten geschreven voor het inladen en uploaden van een database.
+            </p>
+            <h3>Inspiratie</h3>
+            <p>
+                Ik ben altijd geintereseerd geweest in films maar na het kijken van veel films werd het erg moeilijk nieuwe films te ontdekken.
+                Al snel vond ik film review sites zoals <a href="https://www.imdb.com/">imdb</a> en
+                <a href="https://www.rottentomatoes.com/">rotten tomatoes</a> hier leerde ik enkele films kennen maar ik had al snel door dat
+                ik af ging op titels en genres in plaats van willekeurige films te leren kennen. Na het zoeken op youtube vond ik een
+                <a href="https://www.youtube.com/channel/UCrTNhL_yO3tPTdQ5XgmmWjA">kanaal</a> dat
+                ik graag keek eender welke films ze bespreekten. Dit bracht me op het idee een app te maken waar je film recenties krijgt zonder titel
+                en zonder fotos, hieruit kunnen mensen op enkel de review een film leren kennen zonder eerst extra informatie te krijgen.
             </p>
         </div>
+
 
 
         <div id="desktopPictures" class="container topPadder">
@@ -102,18 +120,18 @@
             </h2>
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="images/tijdelijkeFoto1.png" alt="">
+                    <img class="imgsize" src="images/tijdelijkeFoto1.png" alt="">
                 </div>
                 <div class="col-lg-4">
-                    <img src="images/tijdelijkeFoto2.png" alt="">
+                    <img class="imgsize" src="images/tijdelijkeFoto2.png" alt="">
                 </div>
                 <div class="col-lg-4">
-                    <img src="images/tijdelijkeFoto3.png" alt="">
+                    <img class="imgsize" src="images/tijdelijkeFoto3.png" alt="">
                 </div>
             </div>
         </div>
 
-        <div id="mobilePictures" class="row mt-3">
+        <div id="mobilePictures" class="row mt-3 mobilePictureSizer justify-content-center">
             <h2 class="text-center">GALLERY</h2>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -146,7 +164,7 @@
         <div  id="desktopDownload" class="row mt-3 topPadder">
             <h2 class="text-center">DOWNLOAD</h2>
             <div class="text-center">
-                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                <button type="button" class="btn btn-success btnPadder">DOWNLOAD</button>
             </div>
         </div>
 
@@ -162,7 +180,7 @@
                     altijd contacteren bij vragen of problemen bij de app.
                 </p>
                 <p>
-                    <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a>
+                    <a class="btn btn-secondary" href="https://twitter.com/ToonSpanenburg" role="button">Mijn twitter</a>
                 </p>
             </div>
             <div class="col-lg-4">
@@ -173,11 +191,11 @@
                     die ik ga maken in de toekomst zullen hier geupload worden.
                 </p>
                 <p>
-                    <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a>
+                    <a class="btn btn-secondary" href="https://github.com/ToonSpanenburg" role="button">Mijn github</a>
                 </p>
             </div>
             <div class="col-lg-4">
-                <img class="rounded-circle" src="images/InternetLogo.png" alt="Generic placeholder image" width="140" height="140">
+                <img class="rounded-circle" src="images/InternetLogo.png" width="140" height="140">
                 <h2>Website</h2>
                 <p>
                     Dit linkt naar mijn persoonlijke website waar enkele projecten opstaan die ik gemaakt heb/mee aan gewerkt heb.
@@ -190,21 +208,12 @@
         </div>
         </div>
 
+        <footer class="container topPadder">
+            <p>&copy; 2020-2021 Toon Spanenburg. &middot; <a href="https://twitter.com/ToonSpanenburg">Twitter</a> &middot; <a href="#">Download app</a></p>
+        </footer>
     </main>
-    <div class="emptyPadding"></div>
-    <footer class="mastfoot mt-auto fixed-bottom ftr bg-dark">
-        <div class="inner text-center">
-            <p class="whiteFont">
-                Flipr gemaakt door
-                <a href="https://twitter.com/ToonSpanenburg">@ToonSpanenburg</a>
-            </p>
-        </div>
-    </footer>
-<script src="bootstrap.js"></script>
-<script src="bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="bootstrap.js"></script>
 </body>
 
 </html>
