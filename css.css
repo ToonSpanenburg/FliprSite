@@ -72,7 +72,7 @@ body {
 {
     padding: 30px;
 }
-#mobilePictures
+#myCarousel
 {
     display: none;
 }
@@ -103,10 +103,10 @@ body {
 }
 .mobilePictureSizer
 {
-    width: 500px;
+    width: 400px;
 }
 @media (max-width: 1000px) {
-    #mobilePictures
+    #myCarousel
     {
         display: block;
     }
